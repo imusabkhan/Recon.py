@@ -1,5 +1,5 @@
 # Recon.py
-This is my personal multi-threaded reconnaissance script written in Python for bug bounty hunting.
+This is my personal multi-threaded reconnaissance script written in Python for bug hunting.
 
 ## Usage
 
@@ -9,6 +9,32 @@ The `recon.py` script in this repository can be used for performing reconnaissan
 ```bash
 python3 recon.py scope.txt
 ```
+
+## Summary
+The `recon.py` script in this repository performs the following tasks:
+
+1. **Active/Passive Subdomain Enumeration:**
+   - Utilizes various tools for discovering subdomains within a specified scope.
+
+2. **Finding Valid Subdomains:**
+   - Searches for valid subdomains.
+
+3. **Filtering Web Applications:**
+   - Filters out web applications running on default ports 80/443 using httpx.
+
+4. **Finding Vulnerabilities:**
+   - Uses nuclei to find low-hanging fruits and vulnerabilities, then sends output notifications to Discord, Slack, or email via notify.
+
+5. **Port Scanning and Filtering:**
+   - Performs port scans on discovered domains using rustscan and filters out web servers running on non-default ports. 
+
+6. **Asset Discovery in Cloud Environments:**
+   - Discovers assets in cloud environments using cloudenum and sends output notifications to Discord, Slack, or email via notify.
+
+7. **Crawling Valid Assets:**
+   - Utilizes tools like katana, hakrawler, and gospider to crawl valid discovered assets for endpoints, JavaScript files, and new subdomains.
+
+Feel free to explore and customize these scripts and tools based on your specific needs. Contributions and feedback are welcome!
 
 **Note:** I personally use this script on my Digital Ocean VPS and have not tested it on my local network.
 
@@ -65,6 +91,8 @@ Each tool in this repository serves a specific purpose in reconnaissance and inf
 19. [Hakrawler](https://github.com/hakluke/hakrawler): A simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application.
 
 20. [Katana](https://github.com/projectdiscovery/katana): A next-generation crawling and spidering framework.
+
+21. [anew](https://github.com/tomnomnom/anew): A tool for comparing two lists of lines in a file and outputting the differences.
 
 
 ## Social Profiles
