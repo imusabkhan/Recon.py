@@ -108,6 +108,7 @@ Each tool in this repository serves a specific purpose in reconnaissance and inf
 - [Twitter](https://twitter.com/Musab1995)
 - [Facebook](https://facebook.com/imusabkhan)
 - [HackerOne](https://hackerone.com/musabkhan)
+- [Medium](https://medium.com/@imusabkhan)
 
 ## Disclaimer
 
