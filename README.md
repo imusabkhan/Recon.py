@@ -103,12 +103,13 @@ Each tool in this repository serves a specific purpose in reconnaissance and inf
 
 ## Social Profiles
 
-- [YouTube](https://www.youtube.com/musabkhan)
-- [LinkedIn](https://www.linkedin.com/in/musab1995/)
-- [Twitter](https://twitter.com/Musab1995)
-- [Facebook](https://facebook.com/imusabkhan)
-- [HackerOne](https://hackerone.com/musabkhan)
-- [Medium](https://medium.com/@imusabkhan)
+[Medium](https://medium.com/@imusabkhan) |
+[YouTube](https://www.youtube.com/musabkhan) |
+[LinkedIn](https://www.linkedin.com/in/musab1995/) |
+[Twitter](https://twitter.com/Musab1995) |
+[HackerOne](https://hackerone.com/musabkhan) |
+[Facebook](https://facebook.com/imusabkhan) |
+[Instagram](https://instagram.com/imusabkhan)
 
 ## Disclaimer
 
