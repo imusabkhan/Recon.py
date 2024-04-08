@@ -10,7 +10,13 @@ If you find my work helpful and would like to show your support, you can buy me 
 ## Usage
 
 ### Using recon.py
-The `recon.py` script in this repository can be used for performing reconnaissance on a specified scope using the following command:
+Before using recon.py for your reconnaissance tasks, ensure you have installed all the required tools and configured the following variables in the script to achieve optimal outcomes:
+
+```python
+github_token = "your_github_token"
+dns_wordlist = "dns_wordlist.txt"
+perm_wordlist = "perm_wordlist.txt"
+```
 
 ```bash
 python3 recon.py scope.txt
