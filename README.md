@@ -23,7 +23,7 @@ python3 recon.py scope.txt
 ```
 
 ## Summary
-The `recon.py` script in this repository performs the following tasks:
+The `recon.py` script performs the following tasks:
 
 1. **Active/Passive Subdomain Enumeration:**
    - Utilizes various tools for discovering subdomains within a specified scope.
